@@ -1,5 +1,5 @@
 {
-  "help": "Aider",
+  "help": "Aide",
   "right_arrow": " &rarr; ",
   "log": {
     "logmonitor": "Moniteur de journal",
@@ -8,11 +8,11 @@
   },
   "mainmenue": {
     "main": "Sauvegarde",
-    "sysinfo": "système",
+    "sysinfo": "Système",
     "config": "Réglages",
     "tools": "Outils",
-    "filebrowser": "Des dossiers",
-    "view": "View"
+    "filebrowser": "Fichiers",
+    "view": "Voir"
   },
   "main": {
     "internal_button": "stockage interne",
@@ -26,7 +26,7 @@
     "help_txt": "<ul>\n   <li>tous USB : tous les périphériques USB connectés, caméras et stockage, sont sauvegardés.</li>\n   <li>Serveur rsync cible: les caméras ne peuvent pas être sauvegardées directement sur un serveur rsync. La mise en cache locale est requise ici.</li>\n</ul>\n<p class = 'text-center'> Veuillez lire le <a href='https://github.com/outdoorbits/little-backup-box/wiki/05.-Operation'>Wiki</a>.< / p>",
     "stopbackup_button": "ARRÊTER",
     "stopbackup_m": "Arrêt de la sauvegarde.",
-    "usb_button": "Poste stockage USB",
+    "usb_button": "Lecteur USB",
     "view_database": "View-Base de données",
     "thumbnails_header": "Générez des vignettes et importez-les dans la base de données",
     "database_header": "Synchroniser et nettoyer la base de données",
@@ -43,8 +43,8 @@
       "backup": "Sauvegarde depuis",
       "generate_thumbnails_checkbox_label": "Générer des vignettes et lire dans la base de données (uniquement pour le stockage local)",
       "initiated": "initié",
-      "power_off_checkbox_label": "Éteindre après la course",
-      "to": "à",
+      "power_off_checkbox_label": "Éteindre une fois terminé",
+      "to": "vers",
       "update_exif_checkbox_label": "Écrire des données EXIF ​​​​dans les fichiers d'origine (uniquement pour le stockage local)",
       "preset_target_label": "Définir la partition cible",
       "preset_source_label": "Définir la partition source",
@@ -88,7 +88,7 @@
     "view_section": "voir",
     "view_theme_header": "Schéma de couleur",
     "view_theme_label": "Sélectionnez un thème de couleur :",
-    "view_theme_light": "lumière",
+    "view_theme_light": "clair",
     "view_theme_dark": "foncé",
     "view_theme_sepia": "sépia",
     "view_bg_image_label": "Vous pouvez sélectionner une image pour votre arrière-plan. Veuillez stocker vos propres images dans",
@@ -163,7 +163,7 @@
         "folder_mask_header": "Répertoires à sauvegarder sur les smartphones et les caméras",
         "folder_mask_label": "Des instructions pour le comportement de sauvegarde pour certains appareils photo ou smartphones peuvent être données ici.<br>\nLes entrées ici ont la forme : <br>\n&quot;CAMERA:CHEMIN&quot; <br>\nLe nom d'une caméra connectée se trouve sur la page &quot;Système&quot; sur &quot;Appareil photo/Smartphone&quot;.<br>\nSi une instruction doit s'appliquer à toutes les caméras, &quot;*&quot; (sans autres ajouts) peut être utilisé comme joker pour tous les appareils.<br>\nLe chemin n'a pas besoin d'être spécifié en entier. Il suffit d'en utiliser une partie importante. <br>\nExemples : <br>\n&quot;*:DCIM&quot; <br>\n&quot;*:DCIM;MyCamera:IMAGES&quot; <br>\n&quot;&quot; (Le champ reste vide, sauvegardez tous les dossiers de toutes les caméras.)<br>\nPlus d'informations sur le <a href=\"https://github.com/outdoorbits/little-backup-box/wiki/04.-Setup\">wiki</a>",
         "model_folders_header": "Modèle de caméra à synchroniser avec Ordner",
-        "specific_device_folders_header": "Carpetas para sincronizar desde una cámara específica",
+        "specific_device_folders_header": "Dossiers à synchroniser à partir d'une caméra spécifique",
         "device_folder_pattern": "À utiliser comme modèle dans les paramètres"
       },
       "general_settings_header": "Réglages généraux",
@@ -354,10 +354,10 @@
     "format_b": "formater le disque !",
     "select_format_fstype": "type de système de fichiers",
     "f3": {
-      "select_action": "Sélectionner l'essai",
+      "select_action": "Sélectionner le test",
       "probe_non_destructive": "essayer de conserver les données (lent)",
       "probe_destructive": "EFFACER les données (plus rapide)",
-      "b": "commencer l'essai"
+      "b": "Démarrer le test"
     },
     "mount": {
       "b": "Mount",
@@ -412,11 +412,11 @@
         "summary": "Résumé",
         "no_backup": "Erreur: Aucune sauvegarde effectuée!",
         "remount_device_failed": "Le remontage a échoué !",
-        "removed_source_blocked": "Les fichiers transférés n'ont <u>pas</u> supprimés de la source car la source était déjà la destination de la sauvegarde.",
+        "removed_source_blocked": "Les fichiers transférés n'ont <u>pas</u> été supprimés de la source car la source était déjà la destination de la sauvegarde.",
         "removed_source": "Les fichiers transférés ont été supprimés de la source. (si possible)"
       },
       "try": "essayer",
-      "checking_old_files": "comparant",
+      "checking_old_files": "comparer",
       "camera_scanning_folders": "Analyse des dossiers...",
       "primary": "Sauvegarde principale",
       "secondary": "Sauvegarde secondaire",
@@ -427,13 +427,13 @@
       "umount": "Démonter",
       "files_copied": "dos. copié",
       "generating_thumbnails_finding_images1": "Gén. de vignettes",
-      "generating_thumbnails_finding_images3": "Juste un moment......",
+      "generating_thumbnails_finding_images3": "Juste un instant......",
       "usb_target_ok": "Poste stockage ok",
       "usb_source_ok": "Source ok",
       "camera_storage_not_exists_2": "n'existe pas.",
       "camera_storage_not_exists_1": "Caméra-stockage",
       "generating_database_finding_images1": "Synchroniser la base de données",
-      "generating_database_finding_images3": "Juste un moment......",
+      "generating_database_finding_images3": "Juste un instant......",
       "cleaning_database": "Base de données de nettoyage",
       "counting_images": "Compter les images.",
       "generating_thumbnails": "Gén. de vignettes",
@@ -588,11 +588,11 @@
     "execute": "exécuter",
     "input_password": "Mot de passe requis pour démarrer",
     "update": {
-      "warning": "NE PAS ARRÊTER ou recharger pendant la course !",
+      "warning": "NE PAS ARRÊTER ou recharger pendant la mise à jour !",
       "return_link": "Retour à Little Backup Box - NE CLIQUEZ PAS AVANT QUE LA MISE À JOUR SOIT TERMINÉE !",
       "header": "Little Backup Box Mise à jour",
       "development_header": "Little Backup Box Mise à jour - development-branch",
-      "development_warning": "NE PAS ARRÊTER ou recharger pendant la course !"
+      "development_warning": "NE PAS ARRÊTER ou recharger pendant la mise à jour !"
     },
     "no_cmd": "Aucune commande valide donnée.",
     "link_text_home": "Retour à Little Backup Box",
@@ -658,7 +658,7 @@
       "footer": "Attention, seules les images qui ont des vignettes sont affichées ici. Générez-les soit automatiquement (Paramètres, Sauvegarde) soit via la page Sauvegarde.<br>\nConsulte la <a href=\"https://github.com/outdoorbits/little-backup-box/wiki/05a.-view-image-viewer\">Wiki</a> para obtener más información."
     },
     "ratings_save_button": "Sauvegarder",
-    "ratings_1_delete_button": "Supprimer des fichiers multimédias",
+    "ratings_1_delete_button": "Supprimer les fichiers multimédias",
     "date_format": "d.m.Y"
   },
   "units": {
